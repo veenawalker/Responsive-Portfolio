@@ -149,24 +149,39 @@ section {
       }
     
 
-      @media screen and (max-width: 640px){
-        body {
-          background-color:#333;
-    
-      }
-
-      @media screen and (max-width: 768px){
-      body {
-        background-color:#333;
   
-    }
-  }
     @media screen and (max-width: 980px) {
       /* The body's bg color will be #333 */
       body {
         background-color: blue;
       }
+
+   
       /* The wrapper's width will be 600px */
       
+    }
+       
+
+    @media screen and (max-width: 768px){
+      body {
+        background-color:#333;
+  
+    }
+  }
+    @media screen and (max-width: 640px){
+      body {
+        background-color:#333;
+        
+    }
+    ul {
+      float: center;
+    }
+    div{
+      position: relative;
+      top: 80px;
+      width: 100%;
+      height: 100px;
+      
+
     }
   }
