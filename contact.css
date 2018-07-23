@@ -66,7 +66,7 @@ section {
     background: #eee;
     }
 
-  #about {
+  /* #about {
     display: table-cell;
     vertical-align: bottom;
     font-family: "Georgia", Times, Times New Roman, serif;
@@ -80,7 +80,7 @@ section {
     position: relative;
     right: 20px; 
 
-  }
+  } */
 
 
   aside {
@@ -144,8 +144,29 @@ input[type=submit]:hover {
        
     }*/
 
+      #portfolioimg{
+      width: 200px;
+      height: 150px;
+      padding: 10px;
+    }
+    img {
+        width: 65px;
+        height: 65px;
+        padding: 10px;
+        /* float: right; */
+    }
+    #github {
+      float: right;
+      margin-top: -30px;
+      /* margin-right: -90px; */
+    }
 
-   
+    #linkedin {
+      float: right;
+      margin-top: -30px;
+      margin-right: -80px;
+
+    }
      
 
     footer {

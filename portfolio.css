@@ -21,6 +21,16 @@
 
 
   }
+
+  h3 {
+    font-family: "Georgia", Times, Times New Roman, serif;
+    color: #333; 
+  }
+
+  p {
+    color: #333; 
+    float: center;
+  }
     header {
     border-bottom: solid;
     border-color: #cccccc;
@@ -57,7 +67,6 @@ a:visited {
 }
 
 
- 
 section {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +93,9 @@ section {
     right: 20px; 
 
   }
+  #projectOne{
+    float: center;
+  }
 
   aside {
     float: center;
@@ -97,12 +109,29 @@ section {
     border-color: #cccccc; 
     }
 
-    
+    #portfolioimg{
+      width: 200px;
+      height: 150px;
+      padding: 10px;
+    }
     img {
-        width: 150px;
-        height: 100px;
+        width: 65px;
+        height: 65px;
         padding: 10px;
-        float: right;
+        /* float: right; */
+    }
+
+    #github {
+      float: right;
+      margin-top: -30px;
+      /* margin-right: -90px; */
+    }
+
+    #linkedin {
+      float: right;
+      margin-top: -30px;
+      margin-right: -80px;
+
     }
 
    
@@ -124,20 +153,20 @@ section {
       }
       @media screen and (max-width: 640px){
         body {
-          background-color:#333;
+          /* background-color:#333; */
     
       }
 
       @media screen and (max-width: 768px){
         body {
-          background-color:#333;
+          /* background-color:#333; */
     
       }
   
       @media screen and (max-width: 980px) and (min-width: 700px) {
         /* The body's bg color will be #333 */
         body {
-          background-color: blue;
+          /* background-color: blue; */
         }
         /* The wrapper's width will be 600px */
         

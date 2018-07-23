@@ -101,11 +101,13 @@ section {
     background: #fff;
     border: 1px solid #eee; 
     border-color: #cccccc; 
+    font-size: 18px;
       }
     
     p{
       color: #777777;
       float: right;
+      font-size: 18px;
     }
     img {
       float: left;
@@ -124,9 +126,30 @@ section {
       width: 100%;
       height: auto;
   }
+  #portfolioimg{
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+  }
+  img {
+      width: 65px;
+      height: 65px;
+      padding: 10px;
+      /* float: right; */
+  }
 
+  #github {
+    float: right;
+    margin-top: -30px;
+    /* margin-right: -90px; */
+  }
 
-   
+  #linkedin {
+    float: right;
+    margin-top: -30px;
+    margin-right: -80px;
+
+  }
      
 
     footer {  
@@ -153,7 +176,7 @@ section {
     @media screen and (max-width: 980px) {
       /* The body's bg color will be #333 */
       body {
-        background-color: blue;
+        /* background-color: blue; */
       }
 
    
@@ -164,13 +187,13 @@ section {
 
     @media screen and (max-width: 768px){
       body {
-        background-color:#333;
+        /* background-color:#333; */
   
     }
   }
     @media screen and (max-width: 640px){
       body {
-        background-color:#333;
+        /* background-color:#333; */
         
     }
     ul {
